@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --silver-white: #FAF8FE;
+  --dark-green: #007972;
+  --green: #00A39B;
+  --light-blue: #D9EDFF;
+  --text: #4D4D4D;
+  --background: white;
+  --foreground: #4D4D4D;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: var(--green);
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 64px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--green);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  font-size: 24px;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  font-size: 24px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  color: var(--silver-white);
+  background-color: var(--green);
+  padding: 32px 88px;
+  border-radius: 20px;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  width: 377px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +65,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
