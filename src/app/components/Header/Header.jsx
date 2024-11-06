@@ -8,18 +8,18 @@ export default function Header() {
             </div>
             <ul className={styles.navList}>
                 <li className={styles.navItem}>
-                    <a href="#">
-                        Features
+                    <a href="#features">
+                        <p>Features</p>
                     </a>
                 </li>
                 <li className={styles.navItem}>
-                    <a href="">
-                        Who Remedify is For
+                    <a href="#audience">
+                        <p>Who Remedify is For</p>
                     </a>
                 </li>
                 <li className={styles.navItem}>
-                    <a href="">
-                        Meet Remedify Team 
+                    <a href="#team">
+                        <p>Meet Remedify Team </p>
                     </a>
                 </li>
             </ul>
