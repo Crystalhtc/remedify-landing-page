@@ -1,0 +1,48 @@
+.audience {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+    border-radius: 50px;
+    border: 3px solid var(--light-green);
+    margin: 15rem 5rem;
+    box-shadow: 0 10px 28.5px #1066621a;
+}
+
+.title {
+    color: var(--dark-green)
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: fit-content;
+    border: 5px solid var(--green);
+    border-radius: 400px;
+    padding: 2rem;
+}
+
+.iconLabel {
+    font-weight: bold;
+    color: var(--green);
+}
+
+.textContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
