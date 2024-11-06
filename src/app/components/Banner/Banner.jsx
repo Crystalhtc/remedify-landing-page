@@ -1,18 +1,18 @@
-import styles from './Banner.modules.css';
+import styles from './Banner.module.css';
 
 export default function Header() {
     return (
-        <div className="banner">
-            <div className="banner-image">
-               <img src="/banner-image.png" alt="Remedify logo" className="image"/>
+        <div className={styles.banner}>
+            <div className={styles.bannerImage}>
+               <img src="/banner-image.png" alt="Remedify logo" className={styles.image}/>
             </div>
-            <div className="banner-text">
-                <h1 className="banner-title">Never Miss Your Medication Again</h1>
+            <div className={styles.bannerText}>
+                <h1 className={styles.bannerTitle}>Never Miss Your Medication Again</h1>
                 <div>
                     <p>Simple, Smart, and Reliable </p>
                     <p>Medication Reminders for a Healthier You</p>
                 </div>
-                <button className="cta">Get Started Now</button>
+                <button className={styles.cta}>Get Started Now</button>
             </div>
             
         </div>
