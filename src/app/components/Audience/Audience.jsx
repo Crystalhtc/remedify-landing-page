@@ -12,22 +12,25 @@ export default function Audience() {
                         <img src="/polypharmacy.svg" alt="Polypharmacy" className={styles.polypharmacy} width="150"/>
                     </div>
                     <p className={styles.iconLabel}>Polypharmacy</p>
+                    <div className={styles.textContainer}>
+                        <p>
+                            If you're managing multiple medications, Remedify is here to help. It sends you easy-to-follow reminders so you never have to worry about missing a dose.
+                        </p>
+                    </div>
                 </div>
                 <div className={styles.iconBox}>
                     <div className={styles.icon}>
                         <img src="/cognitive-icon.svg" alt="Cognitive impairments" className={styles.cognitive} width="150"/>
                     </div>
                     <p className={styles.iconLabel}>Cognitive impairments</p>
+                     <div className={styles.textContainer}>
+                        <p>
+                            If you find it hard to remember or stay focused on your medications, Remedify supports you with easy-to-follow reminders and visuals that keep you on track.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div className={styles.textContainer}>
-                <p>
-                    Remedify is crafted for individuals managing complex medication schedules and those with cognitive impairments, offering a reliable support system and convenient reminders to simplify daily life.
-                </p>
-                <p>
-                    We understand that keeping track of multiple medications can be stressful and overwhelming. With Remedify, users gain an intuitive support system that ensures they never miss a dose. Remedify offers gentle reminders, easy-to-read instructions, and visual aids that make medication management effortless and accessible.
-                </p>
-            </div>
+            
         </div>
     );
 }
