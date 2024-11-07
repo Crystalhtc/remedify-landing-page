@@ -6,6 +6,7 @@ import Audience from "./components/Audience/Audience";
 import Features from "./components/Features/Features";
 import Team from "./components/Team/Team";
 import Footer from "./components/Footer/Footer";
+import CTA from "./components/CTA/CTA";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Banner />
         <Features />
         <Audience />
+        <CTA />
         <Team />
         <Footer />
       </main>

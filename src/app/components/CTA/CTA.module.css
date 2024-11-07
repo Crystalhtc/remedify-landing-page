@@ -1,0 +1,31 @@
+.cta {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-blue);
+    gap: 5rem;
+    padding: 10rem;
+    height: 500px;
+    margin: 10rem 0 20rem 0;
+}
+
+.ctaText {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.ctaText p {
+    font-size: 36px;
+}
+
+/* Container for the whole component */
+
+/* CTA Graphic */
+.ctaGraphic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* Space between graphic and CTA text */
+}
