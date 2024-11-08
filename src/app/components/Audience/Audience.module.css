@@ -10,40 +10,81 @@
 }
 
 .title {
-    color: var(--dark-green)
+    color: var(--dark-green);
+    text-align: center;
 }
 
 .iconContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .iconBox {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 250px;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .icon {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     width: fit-content;
     border: 5px solid var(--green);
     border-radius: 400px;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .iconLabel {
     font-weight: bold;
     color: var(--green);
+    text-align: center;
 }
 
 .textContainer {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    text-align: justify;
-    width: 70%;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .audience {
+        padding: 2rem;
+        margin: 5rem 2rem;
+        border: none;
+        box-shadow: none;
+    }
+
+    .iconContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .iconBox {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .textContainer {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .icon img {
+        width: 200px;
+    }
+
+    .iconLabel {
+        font-size: 1.5rem;
+    }
 }

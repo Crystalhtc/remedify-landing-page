@@ -14,7 +14,7 @@ export default function Audience() {
                     <p className={styles.iconLabel}>Polypharmacy</p>
                     <div className={styles.textContainer}>
                         <p>
-                            If you're managing multiple medications, Remedify is here to help. It sends you easy-to-follow reminders so you never have to worry about missing a dose.
+                            For those managing multiple medications, Remedify simplifies complex schedules with clear reminders, ensuring users stay on track and in control of their health.
                         </p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ export default function Audience() {
                     <p className={styles.iconLabel}>Cognitive impairments</p>
                      <div className={styles.textContainer}>
                         <p>
-                            If you find it hard to remember or stay focused on your medications, Remedify supports you with easy-to-follow reminders and visuals that keep you on track.
+                            Remedify’s intuitive reminders help users with cognitive challenges remember their medications, supporting confidence and routine.
                         </p>
                     </div>
                 </div>
