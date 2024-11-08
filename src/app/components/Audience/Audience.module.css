@@ -56,7 +56,7 @@
 }
 
 /* Mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .audience {
         padding: 2rem;
         margin: 5rem 2rem;

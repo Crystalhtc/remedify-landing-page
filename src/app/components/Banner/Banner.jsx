@@ -8,7 +8,7 @@ export default function Header() {
             </div>
             <div className={styles.bannerText}>
                 <h1 className={styles.bannerTitle}>Never Miss Your Medication Again</h1>
-                <div>
+                <div className={styles.bannerDescription}>
                     <p>Simple, Smart, and Reliable </p>
                     <p>Medication Reminders for a Healthier You</p>
                 </div>

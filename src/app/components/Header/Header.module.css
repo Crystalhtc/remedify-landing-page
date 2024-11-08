@@ -1,10 +1,3 @@
-.navList {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 5rem;
-}
-
 .nav {
     display: flex;
     width: 100%;
@@ -18,7 +11,36 @@
     top: 0;
 }
 
+.logo {
+    height: 70px;
+}
 
+.navList {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
 
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        padding: 1rem 2rem;
+        width: 100%;
+    }
 
+    .navList {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
 
+    .navItem {
+        text-align: center;
+    }
+
+    .logo {
+        height: 50px;
+    }
+}

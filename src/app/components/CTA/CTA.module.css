@@ -20,12 +20,42 @@
     font-size: 36px;
 }
 
-/* Container for the whole component */
-
-/* CTA Graphic */
 .ctaGraphic {
     position: relative;
     display: flex;
     align-items: center;
-    /* Space between graphic and CTA text */
+}
+
+/* Mobile responsive styles */
+@media (max-width: 600px) {
+    .cta {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 2rem;
+        height: auto;
+        margin: 5rem 0 10rem 0;
+    }
+
+    .ctaGraphic {
+        width: 80%;
+    }
+
+    .graphic {
+        width: 100%;
+    }
+
+    .ctaText {
+        padding: 0 4rem;
+    }
+
+    .ctaText p {
+        font-size: 24px;
+        text-align: left;
+        padding: 0 1rem;
+    }
+
+    .ctaText button {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
 }
