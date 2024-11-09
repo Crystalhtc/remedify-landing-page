@@ -22,7 +22,12 @@ export default function Footer() {
                 </li>
                 <li className={styles.navItem}>
                     <a href="#team">
-                        <p>Meet Remedify Team </p>
+                        <p>Meet Remedify Team</p>
+                    </a>
+                </li>
+                <li className={styles.navItem}>
+                    <a href="">
+                        <p>Blog</p>
                     </a>
                 </li>
             </ul>
