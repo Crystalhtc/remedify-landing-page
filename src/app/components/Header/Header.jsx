@@ -24,16 +24,16 @@ export default function Header() {
             
             <ul className={`${styles.navList} ${isMenuOpen ? styles.navListOpen : ''}`}>
                 <li className={`${styles.navItem} ${styles.firstNavItem}`}>
-                    <a href="#features"><p>Features</p></a>
+                    <a href="#features">Features</a>
                 </li>
                 <li className={styles.navItem}>
-                    <a href="#audience"><p>Who Remedify is For</p></a>
+                    <a href="#audience">Who Remedify is For</a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href="#team"><p>Meet Remedify Team</p></a>
+                    <a href="#team">Meet Remedify Team</a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href=""><p>Blog</p></a>
+                    <a href="">Blog</a>
                 </li>
             </ul>
         </nav>

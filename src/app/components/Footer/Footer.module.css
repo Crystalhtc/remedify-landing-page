@@ -17,6 +17,10 @@
     margin: 0.5rem;
 }
 
+.socialMedia img:hover {
+    opacity: 0.5;
+}
+
 .navList {
     list-style-type: none;
     display: flex;
@@ -35,6 +39,10 @@
     z-index: 1000;
     position: sticky;
     top: 0;
+}
+
+.navItem a p:hover {
+    color: var(--green);
 }
 
 @media only screen and (max-width: 600px){

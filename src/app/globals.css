@@ -57,6 +57,10 @@ button {
   width: 377px;
 }
 
+button:hover {
+  background-color: var(--dark-green);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
