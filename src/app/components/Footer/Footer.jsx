@@ -7,7 +7,6 @@ export default function Footer() {
                 <img style={{width: '345px'}} src='/logo.svg' alt='Remedify Logo' />
                 <div className={styles.socialMedia}>
                     <a href='https://www.instagram.com/rememberwithremedify/?utm_source=ig_web_button_share_sheet' target="_blank"><img src='/instagram.svg' alt='Instagram Link' /></a>
-                    <a href=''><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
             </div>
             <ul className={styles.navList}>
