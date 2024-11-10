@@ -26,6 +26,13 @@
     align-items: center;
 }
 
+/* Laptop responsive styles */
+@media (max-width: 1440px) {
+    .ctaText p {
+        font-size: 30px;
+    }
+}
+
 /* Mobile responsive styles */
 @media (max-width: 600px) {
     .cta {

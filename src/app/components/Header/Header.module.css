@@ -1,16 +1,9 @@
-.navbarContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
 .nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
     box-shadow: 4px 4px 20px 0 var(--gray-alpha-200);
     background-color: var(--silver-white);
     position: sticky;
@@ -84,6 +77,13 @@
             top: 0;
             z-index: 1000;
         }
+
+    .navbarContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
         
     .navList {
         display: none;

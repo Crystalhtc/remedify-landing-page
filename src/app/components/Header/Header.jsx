@@ -24,16 +24,16 @@ export default function Header() {
             
             <ul className={`${styles.navList} ${isMenuOpen ? styles.navListOpen : ''}`}>
                 <li className={`${styles.navItem} ${styles.firstNavItem}`}>
-                    <a href="#features" onClick={() => setIsMenuOpen(false)}>Features</a>
+                    <a href="#features" onClick={() => setIsMenuOpen(false)}><p>Features</p></a>
                 </li>
                 <li className={styles.navItem}>
-                    <a href="#audience" onClick={() => setIsMenuOpen(false)}>Who Remedify is For</a>
+                    <a href="#audience" onClick={() => setIsMenuOpen(false)}><p>Who Remedify is For</p></a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href="#team" onClick={() => setIsMenuOpen(false)}>Meet Remedify Team</a>
+                    <a href="#team" onClick={() => setIsMenuOpen(false)}><p>Meet Remedify Team</p></a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href="https://remedify-blog.vercel.app/" onClick={() => setIsMenuOpen(false)}>Blog</a>
+                    <a href="https://remedify-blog.vercel.app/" onClick={() => setIsMenuOpen(false)}><p>Blog</p></a>
                 </li>
             </ul>
         </nav>

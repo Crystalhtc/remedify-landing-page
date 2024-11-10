@@ -99,6 +99,30 @@ a {
   }
 }
 
+/* laptop */
+@media only screen and (max-width: 1440px){
+  h1, h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 22px 80px;
+    width: 327px;
+    height: 74px;
+  }
+}
+
+/* mobile */
 @media only screen and (max-width: 600px){
   h1, h2 {
     font-size: 32px;
