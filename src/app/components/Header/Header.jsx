@@ -33,7 +33,7 @@ export default function Header() {
                     <a href="#team">Meet Remedify Team</a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href="">Blog</a>
+                    <a href="https://remedify-blog.vercel.app/">Blog</a>
                 </li>
             </ul>
         </nav>
