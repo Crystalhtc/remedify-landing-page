@@ -15,11 +15,11 @@ export default function Header() {
                 <div className={styles.logoContainer}>
                     <img src="/logo.svg" alt="Remedify logo" className={styles.logo} height="70" />
                 </div>
-                <button className={styles.hamburger} onClick={toggleMenu}>
+                <div className={styles.hamburger} onClick={toggleMenu}>
                     <span className={styles.hamburgerBar}></span>
                     <span className={styles.hamburgerBar}></span>
                     <span className={styles.hamburgerBar}></span>
-                </button>
+                </div>
             </div>
             
             <ul className={`${styles.navList} ${isMenuOpen ? styles.navListOpen : ''}`}>
