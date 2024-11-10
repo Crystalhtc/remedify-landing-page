@@ -80,7 +80,7 @@
 @media (max-width: 600px) {
     .nav {
             padding: 1rem 2rem;
-            position: sticky;
+            position: fixed;
             top: 0;
             z-index: 1000;
         }
@@ -114,20 +114,6 @@
         background-color: var(--green);
     }
 
-    .navList {
-        display: none;
-        position: fixed;
-        top: 86.5px;
-        left: 0;
-        width: 100%;
-        background-color: var(--silver-white);
-        z-index: 999;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 0;
-        box-shadow: 4px 4px 20px 0 var(--gray-alpha-200);
-    }
 
     .navListOpen {
         display: flex;

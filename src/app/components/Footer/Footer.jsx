@@ -26,7 +26,7 @@ export default function Footer() {
                     </a>
                 </li>
                 <li className={styles.navItem}>
-                    <a href="https://remedify-blog.vercel.app/">
+                    <a href="https://remedify-blog.vercel.app/" target="_blank">
                         <p>Blog</p>
                     </a>
                 </li>
