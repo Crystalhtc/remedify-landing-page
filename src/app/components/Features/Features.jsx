@@ -2,7 +2,7 @@ import styles from './Features.module.css';
 
 export default function Features() {
     return(
-        <div className={styles.featuresContainer} id='features'>
+        <section className={styles.featuresContainer} id='features'>
             <h1 className={styles.title} >Features</h1>
             <div className={`${styles.singleFeatureContainer} ${styles.singleFeatureContainerReversed}`}>
                 <div className={styles.img} >
@@ -40,6 +40,6 @@ export default function Features() {
                     <img src="/med_library.png" alt="Med library screen" />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -2,7 +2,7 @@ import styles from './Audience.module.css';
 
 export default function Audience() {
     return (
-        <div className={styles.audience} id='audience'>
+        <section className={styles.audience} id='audience'>
             <div className={styles.titleContainer}>
                <h2 className={styles.title}>Who Remedify is For</h2>
             </div>
@@ -31,6 +31,6 @@ export default function Audience() {
                 </div>
             </div>
             
-        </div>
+        </section>
     );
 }

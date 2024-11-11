@@ -5,15 +5,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
 }
 .left {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     gap: 1rem;
+}
+.logo {
+    width: 240px;
 }
 
 .socialMedia img{
-    width: 40px;
+    width: 26px;
     margin: 0.5rem;
 }
 
@@ -24,7 +29,7 @@
 .navList {
     list-style-type: none;
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 5rem;
 }
 
@@ -41,6 +46,9 @@
     top: 0;
 }
 
+.navItem a {
+    font-size: 16px;
+}
 .navItem a p:hover {
     color: var(--green);
 }
@@ -52,12 +60,27 @@
         gap: 2rem;
         width: 100%;
     }
+    .left {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 180px;
+    }
+    .socialMedia img{
+        width: 20px;
+        margin: 0.1rem;
+    }
     .socialMedia {
         margin: 0 auto;
     }
     .navList {
         flex-direction: column;
         justify-content: center;
-        gap: 3rem;
+        align-items: center;
+        gap: 1rem;
+    }
+    .navItem a {
+        font-size: 12px;
     }
 }

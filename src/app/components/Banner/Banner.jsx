@@ -2,7 +2,7 @@ import styles from './Banner.module.css';
 
 export default function Header() {
     return (
-        <div className={styles.banner}>
+        <section className={styles.banner} id='banner'>
             <div className={styles.bannerImage}>
                <img src="/banner-image.png" alt="Remedify logo" className={styles.image}/>
             </div>
@@ -15,6 +15,6 @@ export default function Header() {
                 <button className={styles.cta}>Get Started Now</button>
             </div>
             
-        </div>
+        </section>
     );
 }

@@ -2,7 +2,7 @@ import styles from './Team.module.css'
 
 export default function Team() {
     return(
-        <div className={styles.teamContainer} id='team'>
+        <section className={styles.teamContainer} id='team'>
             <h1 className={styles.title}>Meet Remedify Team</h1>
             <div className={styles.membersContainer}>
                 <div className={styles.member}>
@@ -57,6 +57,6 @@ export default function Team() {
                     <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

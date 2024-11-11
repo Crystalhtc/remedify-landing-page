@@ -3,6 +3,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
     padding: 2rem 3rem;
     box-shadow: 4px 4px 20px 0 var(--gray-alpha-200);
     background-color: var(--silver-white);
@@ -52,8 +53,7 @@
 .navList {
     list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 5rem;
     width: 100%;
 }
@@ -68,6 +68,12 @@
 
 .navItem a {
     text-decoration: none;
+}
+
+.activeLink {
+    color: var(--green);
+    font-weight: bold;
+    font-size: 19.5px;
 }
 
 @media (max-width: 600px) {
@@ -142,5 +148,8 @@
             opacity: 1;
             transform: translateY(0);
         }
+    }
+    .activeLink {
+        font-size: 15.5px;
     }
 }

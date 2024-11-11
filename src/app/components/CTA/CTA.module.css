@@ -17,20 +17,13 @@
 }
 
 .ctaText p {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .ctaGraphic {
     position: relative;
     display: flex;
     align-items: center;
-}
-
-/* Laptop responsive styles */
-@media (max-width: 1440px) {
-    .ctaText p {
-        font-size: 30px;
-    }
 }
 
 /* Mobile responsive styles */
