@@ -21,13 +21,12 @@ export default function Header() {
     };
 
     useEffect(() => {
-
         const sections = document.querySelectorAll("section");
     
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
-                    if (entry.isIntersecting  && !locked) {
+                    if (entry.isIntersecting && !locked) {
                         const id = `#${entry.target.id}`;
                         if (activeSection !== id) {
                             setActiveSection(id); 
@@ -42,7 +41,6 @@ export default function Header() {
         
         return () => observer.disconnect();
     }, [activeSection, locked]);
-    
 
     return (
         <nav className={styles.nav}>
@@ -61,16 +59,39 @@ export default function Header() {
             
             <ul className={`${styles.navList} ${isMenuOpen ? styles.navListOpen : ''}`}>
                 <li className={`${styles.navItem} ${styles.firstNavItem}`}>
-                    <a href="#features" onClick={() => handleLinkClick('#features')} className={activeSection === '#features' ? styles.activeLink : ''}>Features</a>
+                    <a 
+                        href="#features" 
+                        onClick={() => handleLinkClick('#features')} 
+                        className={`${styles.navLink} ${activeSection === '#features' ? styles.activeLink : ''}`}
+                    >
+                        Features
+                    </a>
                 </li>
                 <li className={styles.navItem}>
-                    <a href="#audience" onClick={() => handleLinkClick('#audience')} className={activeSection === '#audience' ? styles.activeLink : ''}>Who Remedify is For</a>
+                    <a 
+                        href="#audience" 
+                        onClick={() => handleLinkClick('#audience')} 
+                        className={`${styles.navLink} ${activeSection === '#audience' ? styles.activeLink : ''}`}
+                    >
+                        Who Remedify is For
+                    </a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href="#team" onClick={() => handleLinkClick('#team')} className={activeSection === '#team' ? styles.activeLink : ''}>Meet Remedify Team</a>
+                    <a 
+                        href="#team" 
+                        onClick={() => handleLinkClick('#team')} 
+                        className={`${styles.navLink} ${activeSection === '#team' ? styles.activeLink : ''}`}
+                    >
+                        Meet Remedify Team
+                    </a>
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
-                    <a href="https://remedify-blog.vercel.app/">Blog</a>
+                    <a 
+                        href="https://remedify-blog.vercel.app/" 
+                        className={styles.navLink}
+                    >
+                        Blog
+                    </a>
                 </li>
             </ul>
         </nav>
