@@ -12,10 +12,6 @@ export default function BlogCard({ blogImage, title, date, description, authorIm
                     <p className={styles.blogDate}>{date}</p>
                     <p className={styles.blogDescription}>{description}</p>
                 </div>
-                <div className={styles.authorContainer}>
-                    <img src={authorImage} className={styles.authorImage}/>
-                    <p className={styles.author}>{author}</p>
-                </div>
             </a>
             
         </div>

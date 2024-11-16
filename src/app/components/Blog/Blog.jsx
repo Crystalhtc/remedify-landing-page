@@ -68,8 +68,6 @@ export default function Blog() {
                             title={blog.title}
                             date={blog.date}
                             description={blog.description}
-                            authorImage={blog.authorImage}
-                            author={blog.author}
                             blogURL={blog.url}
                         />
                     )
