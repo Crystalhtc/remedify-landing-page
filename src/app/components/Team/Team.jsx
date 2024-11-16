@@ -28,7 +28,7 @@ export default function Team() {
                     <img src='/madoka.png' alt='Madoka Nogaki' />
                     <h3>Madoka Nogaki</h3>
                     <p>UI/UX Designer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/madoka-nogaki/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
             </div>
             <div className={styles.membersContainer}>
@@ -48,13 +48,13 @@ export default function Team() {
                     <img src='/jillian.png' alt='Jillian Gonzales' />
                     <h3>Jillian Gonzales</h3>
                     <p>UX/UI Designer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/jilliangz' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
                     <img src='/yeongtaek.png' alt='Yeongtaek Lee' />
                     <h3>Yeongtaek Lee</h3>
                     <p>Developer</p>
-                    <a className={styles.linkedin} href='https://www.linkedin.com/in/yeongtaek-lee-413331262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/yeongtaek-lee' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
             </div>
         </section>
