@@ -8,6 +8,7 @@
 
 .textContainer {
     margin: 0 10rem 5rem;
+    /* max-width: 100%; */
 }
 
 .title {
@@ -26,4 +27,15 @@
 
 .catalog::-webkit-scrollbar {
     display: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .textContainer {
+        margin: 0 5rem 1rem;
+    }
+    .catalog {
+        gap: 1rem;
+        padding: 1rem 0 2rem;
+    }
 }

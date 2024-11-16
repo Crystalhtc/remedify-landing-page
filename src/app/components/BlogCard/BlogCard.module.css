@@ -39,3 +39,10 @@
     object-fit: cover;
     box-shadow: 0 5px 10px 0 #65656520;
 }
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .blogCard {
+        padding: 1.3rem;
+        min-width: 30%;
+    }
+}

@@ -52,7 +52,7 @@ const blogInfo = [
 
 export default function Blog() {
     return (
-        <div className={styles.blog} id='blog'>
+        <section className={styles.blog} id='blog'>
             <div className={styles.textContainer}>
                 <h2 className={styles.title}>Blog</h2>
                 <p>Follow our progress as we build the ultimate medication reminder app! In our blog, we share every step of our journey, from the initial spark of an idea to the final polished product.</p>
@@ -78,7 +78,7 @@ export default function Blog() {
                     <button>More Blogs</button>
                 </a>
             </div>
-        </div>
+        </section>
         
     );
 }

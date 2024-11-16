@@ -55,7 +55,8 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    align-items: center;
+    gap: 3rem;
     width: 100%;
 }
 

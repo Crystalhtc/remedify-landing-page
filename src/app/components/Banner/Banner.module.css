@@ -66,3 +66,9 @@
         padding: 0.5rem 1rem;
     }
 }
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .banner {
+        margin-bottom: 0;
+    }
+}

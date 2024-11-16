@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 600px){
     .featuresContainer {
-        margin: 7rem 5rem;
+        margin: 2rem 5rem;
         scroll-margin-top: 100px; 
     }
     .title {
