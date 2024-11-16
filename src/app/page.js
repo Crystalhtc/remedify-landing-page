@@ -6,6 +6,7 @@ import Features from "./components/Features/Features";
 import Team from "./components/Team/Team";
 import Footer from "./components/Footer/Footer";
 import CTA from "./components/CTA/CTA";
+import Blog from "./components/Blog/Blog";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Features />
         <Audience />
         <CTA />
+        <Blog />
         <Team />
         <Footer />
       </main>

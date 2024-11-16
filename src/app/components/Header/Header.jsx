@@ -87,8 +87,9 @@ export default function Header() {
                 </li>
                 <li className={`${styles.navItem} ${styles.lastNavItem}`}>
                     <a 
-                        href="https://remedify-blog.vercel.app/" 
-                        className={styles.navLink}
+                        href="#blog" 
+                        onClick={() => handleLinkClick('#blog')} 
+                        className={`${styles.navLink} ${activeSection === '#blog' ? styles.activeLink : ''}`}
                     >
                         Blog
                     </a>

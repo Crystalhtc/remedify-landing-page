@@ -10,13 +10,13 @@ export default function Team() {
                     <h3>Brian Paragas</h3>
                     <p>Project Manager</p>
                     <p>Lead Graphic Designer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/brianparagas/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
                     <img src='/crystal.png' alt='Crystal Cheung' />
                     <h3>Crystal Cheung</h3>
                     <p>Lead UI/UX Designer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/crystal-cheunghtc/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
                     <img src='/nathan.png' alt='Nathan Yee' />
@@ -54,7 +54,7 @@ export default function Team() {
                     <img src='/yeongtaek.png' alt='Yeongtaek Lee' />
                     <h3>Yeongtaek Lee</h3>
                     <p>Developer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/yeongtaek-lee-413331262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
             </div>
         </section>
