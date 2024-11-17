@@ -73,9 +73,12 @@ export default function Blog() {
                     )
                 })}
             </div>
+            <div className={styles.mobile}>
+                <img src='/blog/mobile.svg' className={styles.mobileGraphic}/>
+            </div>
             <div className={styles.button}>
                 <a href='https://remedify-blog.vercel.app/' target="_blank">
-                    <button>More Blogs</button>
+                    <button className={styles.button}>More Blogs</button>
                 </a>
             </div>
         </section>

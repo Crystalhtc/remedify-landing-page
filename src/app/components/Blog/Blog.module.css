@@ -29,13 +29,24 @@
     display: none;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 600px) {
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
     .textContainer {
-        margin: 0 5rem 1rem;
+        margin: 0;
+        padding: 0 4rem
     }
+
     .catalog {
-        gap: 1rem;
-        padding: 1rem 0 2rem;
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
     }
 }
+
