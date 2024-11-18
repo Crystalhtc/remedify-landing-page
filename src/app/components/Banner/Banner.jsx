@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <section className={styles.banner} id='banner'>
             <div className={styles.bannerImage}>
-               <img src="/banner-image.png" alt="Remedify logo" className={styles.image}/>
+               <img src="/banner-image.svg" alt="Remedify logo" className={styles.image}/>
             </div>
             <div className={styles.bannerText}>
                 <h1 className={styles.bannerTitle}>Never Miss Your Medication Again</h1>

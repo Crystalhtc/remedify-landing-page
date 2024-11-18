@@ -9,13 +9,16 @@
 
 .bannerImage {
     width: 50%;
-    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .image {
-    width: 100%;
+    width: 130%;
     height: 100%;
-    object-fit: scale-down;
+    object-fit: contain;
+    position: relative;
+    right: 12vw;
 }
 
 .bannerText {
@@ -34,6 +37,7 @@
         height: auto;
         gap: 2rem;
         padding: 5rem 0 5rem 0;
+        margin-bottom: 0;
     }
 
     .bannerImage,
@@ -66,9 +70,9 @@
         padding: 0.5rem 1rem;
     }
 }
-/* Mobile responsiveness */
+/* Mobile responsiveness
 @media (max-width: 600px) {
     .banner {
         margin-bottom: 0;
     }
-}
+} */
