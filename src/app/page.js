@@ -18,8 +18,8 @@ export default function Home() {
         <Features />
         <Audience />
         <CTA />
-        <Blog />
         <Team />
+        <Blog />
         <Footer />
       </main>
     </div>
