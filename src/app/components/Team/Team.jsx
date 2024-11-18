@@ -22,7 +22,7 @@ export default function Team() {
                     <img src='/nathan.png' alt='Nathan Yee' />
                     <h3>Nathan Yee</h3>
                     <p>Lead Developer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/yeenathan/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
                     <img src='/madoka.png' alt='Madoka Nogaki' />
@@ -36,13 +36,13 @@ export default function Team() {
                     <img src='/kenny.png' alt='Kenny Harman' />
                     <h3>Kenny Harman</h3>
                     <p>Graphic Designer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/kennyharman/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
                     <img src='/deluka.png' alt='Deluka LGH' />
                     <h3>Deluka LGH</h3>
                     <p>Developer</p>
-                    <a className={styles.linkedin} href='' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
+                    <a className={styles.linkedin} href='https://www.linkedin.com/in/delukalgh/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
                     <img src='/jillian.png' alt='Jillian Gonzales' />
