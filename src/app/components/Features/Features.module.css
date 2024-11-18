@@ -2,7 +2,7 @@
     margin: 0 10rem 5rem;
     display: flex;
     flex-direction: column;
-    scroll-margin-top: 200px; 
+    scroll-margin-top: 180px; 
 }
 .title{
     color: var(--dark-green);
