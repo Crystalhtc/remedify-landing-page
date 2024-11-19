@@ -7,7 +7,11 @@
     height: 500px;
     margin: 10rem 0 20rem 0;
 }
-
+@media (prefers-color-scheme: dark) {
+    .cta {
+        background-color: #636B74;
+    }
+}
 .ctaText {
     display: flex;
     flex-direction: column;

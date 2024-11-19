@@ -9,6 +9,7 @@
   --text: #4D4D4D;
   --background: white;
   --foreground: #4D4D4D;
+  --dark-gray: #0a0a0a;
 }
 
 html {
@@ -71,8 +72,11 @@ button:hover {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1b1b1b;
     --foreground: #ededed;
+  }
+  p {
+    color: var(--silver-white);
   }
 }
 

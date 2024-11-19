@@ -6,6 +6,11 @@
     padding: 2rem 0;
     margin-bottom: 5rem;
 }
+@media (prefers-color-scheme: dark) {
+    .banner {
+        background-color: var(--dark-gray);
+    }
+}
 
 .bannerImage {
     width: 50%;
