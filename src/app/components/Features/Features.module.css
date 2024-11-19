@@ -1,8 +1,11 @@
+.outerContainer {
+    margin: 0 10rem;
+    scroll-margin-top: 180px; 
+}
 .featuresContainer {
-    margin: 0 10rem 5rem;
     display: flex;
     flex-direction: column;
-    scroll-margin-top: 180px; 
+    align-items: center;
 }
 .title{
     color: var(--dark-green);
