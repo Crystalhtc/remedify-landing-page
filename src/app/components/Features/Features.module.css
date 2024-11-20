@@ -13,7 +13,10 @@
 }
 
 .img img {
-    max-width: 100%;
+    max-width: 80%;
+}
+#scanningImg img {
+    max-width: 50%;
 }
 
 @media (prefers-color-scheme: dark) {
