@@ -74,7 +74,7 @@ export default function Blog() {
                 })}
             </div>
             <div className={styles.mobile}>
-                <img src='/blog/mobile.svg' className={styles.mobileGraphic}/>
+                <img src='/blog/mobile.png' className={styles.mobileGraphic}/>
             </div>
             <div className={styles.button}>
                 <a href='https://remedify-blog.vercel.app/' target="_blank">
