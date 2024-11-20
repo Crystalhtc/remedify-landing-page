@@ -34,7 +34,7 @@ export default function Header() {
                     }
                 });
             },
-            { threshold: 0.49 }
+            { threshold: 0.39 }
         );
     
         sections.forEach((section) => observer.observe(section));
