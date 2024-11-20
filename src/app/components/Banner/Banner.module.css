@@ -16,6 +16,8 @@
     width: 50%;
     margin-left: 0;
     padding-left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .image {
@@ -23,7 +25,7 @@
     height: 100%;
     object-fit: contain;
     position: relative;
-    right: 12vw;
+    right: 3vw;
 }
 
 .bannerText {
@@ -45,7 +47,16 @@
         margin-bottom: 0;
     }
 
-    .bannerImage,
+    .bannerImage {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .image {
+        width: 100%;
+        right: 0vw;
+    }
     .bannerText {
         width: 100%;
     }
@@ -58,7 +69,6 @@
     }
 
     .bannerTitle {
-        font-size: 2rem;
         text-align: left;
     }
 
@@ -66,18 +76,8 @@
         text-align: left;
     }
 
-    .bannerDescription p {
-        font-size: 1.5rem;
-    }
-
     .cta {
         font-size: 1rem;
         padding: 0.5rem 1rem;
     }
 }
-/* Mobile responsiveness
-@media (max-width: 600px) {
-    .banner {
-        margin-bottom: 0;
-    }
-} */

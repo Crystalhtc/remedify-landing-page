@@ -47,7 +47,7 @@ export default function Header() {
             <div className={styles.navbarContainer}>
                 <div className={styles.logoContainer}>
                     <a href="#header" onClick={() => handleLinkClick('#header')} className={activeSection === '#features' ? styles.activeLink : ''}>
-                        <img src="/logo.svg" alt="Remedify logo" className={styles.logo} height="70" />
+                        <img src="/logo.svg" alt="Remedify logo" className={styles.logo} />
                     </a>
                 </div>
                 <div className={styles.hamburger} onClick={toggleMenu}>

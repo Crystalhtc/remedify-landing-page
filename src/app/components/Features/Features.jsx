@@ -24,7 +24,7 @@ export default function Features() {
                     </div>
                 </div>
                 <div className={`${styles.singleFeatureContainer} ${styles.singleFeatureContainerReversed}`}>
-                    <div className={styles.img} >
+                    <div className={styles.img} id={styles.scanningImg}>
                         <img src="/scanning.svg" alt="Med scanning screen" />
                     </div>
                     <div className={styles.description}>

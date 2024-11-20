@@ -8,7 +8,13 @@
     align-items: center;
 }
 .title{
+    margin: 2rem;
     color: var(--dark-green);
+}
+@media (prefers-color-scheme: dark) {
+    .title {
+        color: var(--light-green);
+    }
 }
 .singleFeatureContainer {
     display: flex;
@@ -33,7 +39,9 @@
 }
 
 @media only screen and (max-width: 600px){
-    .featuresContainer {
+    .outerContainer {
+        display: flex;
+        flex-direction: column;
         margin: 2rem 5rem;
         scroll-margin-top: 100px; 
     }
@@ -54,5 +62,8 @@
     }
     .img img{
         max-width: 300px;
+    }
+    #scanningImg img {
+        max-width: 200px;
     }
 }

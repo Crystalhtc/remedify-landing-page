@@ -13,7 +13,12 @@
 
 .title {
     color: var(--dark-green);
-    margin-bottom: 3rem;
+    margin: 2rem 0;
+}
+@media (prefers-color-scheme: dark) {
+    .title {
+        color: var(--light-green);
+    }
 }
 
 .catalog {
@@ -34,9 +39,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .blog {
+        scroll-margin-top: 100px;
+    }
     .textContainer {
         margin: 0;
-        padding: 0 4rem
+        padding: 0 4rem; 
     }
 
     .catalog {
