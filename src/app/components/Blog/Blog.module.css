@@ -55,6 +55,11 @@
         display: flex;
         justify-content: center;
         padding: 2rem;
+        width: 100%;
     }
+
+    .mobile img {
+        width: 100%;
+    }    
 }
 
