@@ -15,7 +15,7 @@ export default function Team() {
                 <div className={styles.member}>
                     <img src='/team/crystal.png' alt='Crystal Cheung' />
                     <h3>Crystal Cheung</h3>
-                    <p>Lead UI/UX Designer</p>
+                    <p>Lead UX/UI Designer</p>
                     <a className={styles.linkedin} href='https://www.linkedin.com/in/crystal-cheunghtc/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
                 <div className={styles.member}>
@@ -27,7 +27,7 @@ export default function Team() {
                 <div className={styles.member}>
                     <img src='/team/madoka.png' alt='Madoka Nogaki' />
                     <h3>Madoka Nogaki</h3>
-                    <p>UI/UX Designer</p>
+                    <p>UX/UI Designer</p>
                     <a className={styles.linkedin} href='https://www.linkedin.com/in/madoka-nogaki/' target="_blank"><img src='/linkedin.svg' alt='Linkedin Link' /></a>
                 </div>
             </div>
