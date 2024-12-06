@@ -15,7 +15,7 @@ export default function CTA() {
                 </div>
                 <div className={styles.ctaText}>
                     <p>Join Us in Making Medication Management Easier and More Accessible</p>
-                    <button>Get Started Now</button>
+                    {/* <button>Get Started Now</button> */}
                 </div>
             </div>
         </div>
