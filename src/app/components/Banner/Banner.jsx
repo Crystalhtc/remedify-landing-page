@@ -14,13 +14,12 @@ export default function Header() {
                     <p>Simple, Smart, and Reliable </p>
                     <p>Medication Reminders for a Healthier You</p>
                 </div>
-                <button className={styles.cta}>
-                    <a 
-                        href="#features" 
-                    >
-                        Learn More
-                    </a>
-                </button>
+                <a href="#features" >
+                    <button className={styles.cta}>
+                            Learn More
+                        
+                    </button>
+                </a>
             </div>
             
         </section>
